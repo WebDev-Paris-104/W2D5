@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+.grid {
+	width: 505px;
+	aspect-ratio: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell {
+	width: 50px;
+	aspect-ratio: 1;
+	border: 1px solid black;
+}
+
+.target {
+	background-color: chartreuse;
+}
+.player {
+	background-color: dodgerblue;
+}
